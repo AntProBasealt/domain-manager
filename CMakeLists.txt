@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-#project(domain-manager VERSION 0.1 LANGUAGES CXX)
-project("domain-manager")
+project(domain-manager VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
@@ -18,9 +17,49 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
+        step_1.cpp
+        step_2.cpp
+        step_3.cpp
+        step_4.cpp
+
         mainwindow.h
+        step_1.h
+        step_2.h
+        step_3.h
+        step_4.h
+
         mainwindow.ui
+        step_1.ui
+        step_2.ui
+        step_3.ui
+        step_4.ui
 )
+
+#set(HEADERS
+#    step1.h
+#    step2,h
+#    step3.h
+#    step4.h
+#    mainwindow.h)
+
+#set(SOURCES
+#    main.cpp
+#    mainwindow.cpp
+#    step1.cpp
+#    step2.cpp
+#    step3.cpp
+#    step4.cpp)
+
+#set(UI_FORMS
+#    step_1.ui
+#    step_2.ui
+#    step_3.ui
+#    step_4.ui
+#    mainwindow.ui)
+
+#set(PROJECT_SOURCES ${SOURCES} ${HEADERS} ${UI_FORMS})
+
+add_subdirectory(src)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(domain-manager

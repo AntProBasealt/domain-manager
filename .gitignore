@@ -3,6 +3,8 @@
 
 /.github/
 Dockerfile
+/script/
+/src/
 
 # Compiled Object files
 *.slo
