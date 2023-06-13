@@ -1,0 +1,4 @@
+#ifndef MDOMAINBEGIN_H
+#define MDOMAINBEGIN_H
+
+#endif // MDOMAINBEGIN_H

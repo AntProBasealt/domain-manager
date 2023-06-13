@@ -27,6 +27,7 @@ set(PROJECT_SOURCES
         step_2.h
         step_3.h
         step_4.h
+        MDomainbegin.h
 
         mainwindow.ui
         step_1.ui
