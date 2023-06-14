@@ -5,7 +5,7 @@ Step1Page::Step1Page(){}
 Step1Page::~Step1Page(){}
 
 // TODO
-void Step1Page::showBaseAdRadibutton(){}
+void Step1Page::showBaseAdRadioButton(){}
 
 void Step1Page::showFirstDcCheckBox(){}
 

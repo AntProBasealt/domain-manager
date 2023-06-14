@@ -11,7 +11,7 @@ public:
     virtual ~Step1Page();
 
 private:
-    void showBaseAdRadibutton();
+    void showBaseAdRadioButton();
     void showFirstDcCheckBox();
     void setDomainName();
     void setComputerName();
