@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1044</width>
-    <height>602</height>
+    <width>790</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="font">
@@ -80,10 +80,16 @@
    <item row="1" column="0" colspan="3">
     <widget class="QGroupBox" name="groupBox">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>750</width>
+       <height>16777215</height>
+      </size>
      </property>
      <property name="font">
       <font>
@@ -962,21 +968,14 @@ p, li { white-space: pre-wrap; }
      </layout>
     </widget>
    </item>
-   <item row="2" column="0" rowspan="2">
+   <item row="2" column="0">
     <widget class="QPushButton" name="exitPushButton">
      <property name="text">
       <string>Выйти</string>
      </property>
     </widget>
    </item>
-   <item row="2" column="2" rowspan="2">
-    <widget class="QPushButton" name="nextPushButton">
-     <property name="text">
-      <string>Далее&gt;&gt;</string>
-     </property>
-    </widget>
-   </item>
-   <item row="3" column="1">
+   <item row="2" column="1">
     <spacer name="horizontalSpacer">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -988,6 +987,13 @@ p, li { white-space: pre-wrap; }
       </size>
      </property>
     </spacer>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="nextPushButton">
+     <property name="text">
+      <string>Далее&gt;&gt;</string>
+     </property>
+    </widget>
    </item>
   </layout>
  </widget>
