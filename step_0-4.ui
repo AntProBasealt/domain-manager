@@ -154,7 +154,7 @@
         </row>
         <row>
          <property name="text">
-          <string>NetBIOS NAme</string>
+          <string>NetBIOS Name</string>
          </property>
         </row>
         <row>
@@ -244,7 +244,82 @@
         </item>
         <item row="2" column="0">
          <property name="text">
-          <string/>
+          <string>domain.ru</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>DC0</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>DC0</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>12345678</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>BIND9_DLZ</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>MIT</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>2008 R2</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>First-Site-Name</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>/var/lib/samba/</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>TDB</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>4 Gb</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>Да</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>Да(диапазон)</string>
+         </property>
+        </item>
+        <item row="15" column="0">
+         <property name="text">
+          <string>Да</string>
+         </property>
+        </item>
+        <item row="16" column="0">
+         <property name="text">
+          <string>...</string>
+         </property>
+        </item>
+        <item row="17" column="0">
+         <property name="text">
+          <string>...</string>
          </property>
         </item>
        </widget>

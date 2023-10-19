@@ -128,8 +128,8 @@
      <property name="checkable">
       <bool>false</bool>
      </property>
-     <layout class="QGridLayout" name="gridLayout_3">
-      <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0" colspan="2">
        <widget class="QTableWidget" name="tableWidget">
         <property name="autoFillBackground">
          <bool>true</bool>
@@ -139,82 +139,67 @@
         </attribute>
         <row>
          <property name="text">
-          <string>Действие</string>
+          <string>Остановка OpenLDAP</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Тип домена</string>
+          <string>Очистка /var/lib/samba</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Имя домена</string>
+          <string>Очистка /etc/samba/smb.conf</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>NetBIOS NAme</string>
+          <string>Очистка /var/cache/samba</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Имя компьютера</string>
+          <string>Установка пакета bind bind-utils</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Пароль Администратора</string>
+          <string>Установка пакетв samba</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Тип DNS</string>
+          <string>Установка имени домена</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Тип Kerberos</string>
+          <string>Установка имени машины</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Схема домена</string>
+          <string>Установка имени сайта</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Имя сайта</string>
+          <string>Установка целевого каталога</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Целевой каталог</string>
+          <string>Установка типа базы</string>
          </property>
         </row>
         <row>
          <property name="text">
-          <string>Тип базы</string>
-         </property>
-        </row>
-        <row>
-         <property name="text">
-          <string>Размер базы</string>
-         </property>
-        </row>
-        <row>
-         <property name="text">
-          <string>Использование RFC2307</string>
+          <string>Установка размера базы</string>
          </property>
         </row>
         <row>
          <property name="text">
           <string>Генерация SID для домена</string>
-         </property>
-        </row>
-        <row>
-         <property name="text">
-          <string>Хранение конф. значений</string>
          </property>
         </row>
         <row>
@@ -239,7 +224,7 @@
         </column>
         <item row="0" column="0">
          <property name="text">
-          <string>Создание нового домена</string>
+          <string/>
          </property>
         </item>
         <item row="0" column="1">
@@ -255,7 +240,7 @@
         </item>
         <item row="1" column="0">
          <property name="text">
-          <string>Samba4</string>
+          <string/>
          </property>
         </item>
         <item row="1" column="1">
@@ -268,7 +253,7 @@
         </item>
         <item row="2" column="0">
          <property name="text">
-          <string>domain.ru</string>
+          <string/>
          </property>
         </item>
         <item row="2" column="1">
@@ -281,7 +266,7 @@
         </item>
         <item row="3" column="0">
          <property name="text">
-          <string>DC0</string>
+          <string/>
          </property>
         </item>
         <item row="3" column="1">
@@ -294,7 +279,7 @@
         </item>
         <item row="4" column="0">
          <property name="text">
-          <string>dc0</string>
+          <string/>
          </property>
         </item>
         <item row="4" column="1">
@@ -307,7 +292,7 @@
         </item>
         <item row="5" column="0">
          <property name="text">
-          <string>12345678</string>
+          <string/>
          </property>
         </item>
         <item row="5" column="1">
@@ -320,7 +305,7 @@
         </item>
         <item row="6" column="0">
          <property name="text">
-          <string>BIND9_DLZ</string>
+          <string/>
          </property>
         </item>
         <item row="6" column="1">
@@ -333,7 +318,7 @@
         </item>
         <item row="7" column="0">
          <property name="text">
-          <string>MIT</string>
+          <string/>
          </property>
         </item>
         <item row="7" column="1">
@@ -346,7 +331,7 @@
         </item>
         <item row="8" column="0">
          <property name="text">
-          <string>Windows Server 2008R2</string>
+          <string>First-Site</string>
          </property>
         </item>
         <item row="8" column="1">
@@ -359,7 +344,7 @@
         </item>
         <item row="9" column="0">
          <property name="text">
-          <string>First-Site</string>
+          <string>/var/lib/sysvol</string>
          </property>
         </item>
         <item row="9" column="1">
@@ -372,7 +357,7 @@
         </item>
         <item row="10" column="0">
          <property name="text">
-          <string>/var/lib/sysvol</string>
+          <string>TDB</string>
          </property>
         </item>
         <item row="10" column="1">
@@ -385,7 +370,7 @@
         </item>
         <item row="11" column="0">
          <property name="text">
-          <string>TDB</string>
+          <string>4 Gb</string>
          </property>
         </item>
         <item row="11" column="1">
@@ -398,7 +383,7 @@
         </item>
         <item row="12" column="0">
          <property name="text">
-          <string>4 Gb</string>
+          <string>Да</string>
          </property>
         </item>
         <item row="12" column="1">
@@ -411,7 +396,7 @@
         </item>
         <item row="13" column="0">
          <property name="text">
-          <string>Да</string>
+          <string/>
          </property>
         </item>
         <item row="13" column="1">
@@ -422,46 +407,7 @@
           <enum>Checked</enum>
          </property>
         </item>
-        <item row="14" column="0">
-         <property name="text">
-          <string>Да</string>
-         </property>
-        </item>
         <item row="14" column="1">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="checkState">
-          <enum>Checked</enum>
-         </property>
-        </item>
-        <item row="15" column="0">
-         <property name="text">
-          <string>Да</string>
-         </property>
-        </item>
-        <item row="15" column="1">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="checkState">
-          <enum>Checked</enum>
-         </property>
-        </item>
-        <item row="16" column="0">
-         <property name="text">
-          <string/>
-         </property>
-        </item>
-        <item row="16" column="1">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="checkState">
-          <enum>Checked</enum>
-         </property>
-        </item>
-        <item row="17" column="1">
          <property name="text">
           <string/>
          </property>
@@ -478,7 +424,21 @@
         </property>
        </widget>
       </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Лог установки</string>
+        </property>
+       </widget>
+      </item>
      </layout>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Откатить</string>
+     </property>
     </widget>
    </item>
   </layout>
